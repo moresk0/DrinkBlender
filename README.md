@@ -5,7 +5,8 @@ Drink Blender is my Bachelor thesis project. It is based on Arduino Nano and And
 Control and communication between user and device was designed to be performed via Bluetooth and a special Android application created in the **MIT App Inventor**. The user selects a drink within the mobile application, and data containing type and quantity of drink is sent to the Arduino via Bluetooth
 communication. Arduino executes the "recipe" and mixes the drink in the given quantities and ratios.
 
-(All photos are in Croatian)
+App project for MIT App Inventor can be found in .aia file and Arduino in .ino file.
+Library for LCD screen can be downloaded from [here](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library).
 
 For liquid transfer 4 peristaltic pumps are used. As pumps need much more current than Arduino can provide, custom driver circuit is made.
 ![ControlC](https://raw.githubusercontent.com/moresk0/DrinkBlender/main/Photos/PWControl.png)
